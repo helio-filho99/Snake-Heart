@@ -173,7 +173,7 @@ class MAIN:
 
 pygame.mixer.pre_init(44100,-16,2,512)
 pygame.init()
-tamanho_da_celula = 35
+tamanho_da_celula = 40
 numero_da_celula = 20
 tela = pygame.display.set_mode((numero_da_celula * tamanho_da_celula, numero_da_celula * tamanho_da_celula))
 relogio = pygame.time.Clock()
